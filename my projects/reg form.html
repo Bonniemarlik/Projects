@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+        body { font-family: Arial, 
+            sans-serif; 
+            background: #f4f4f4; 
+        }
+        .container { max-width:400px; 
+            margin:40px auto; 
+            background:#fff; 
+            padding:24px; 
+            border-radius:8px;
+             box-shadow:0 2px 8px rgba(0,0,0,0.1);
+            }
+        h2 { 
+            text-align:center;
+        }
+        label, input, button { 
+            display:block;
+             width:100%; 
+             margin-bottom:12px; 
+            }
+        input, button { 
+            padding:8px; 
+            border-radius:4px;
+             border:1px solid #ccc; 
+            }
+        button { background:#007bff; 
+            color:#fff; 
+            border:none; 
+            cursor:pointer;
+        }
+        button:hover {
+             background:#0056b3; 
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form>
+            <label>Full Name</label><input type="text" required>
+            <label>Email</label><input type="email" required>
+            <label>Username</label><input type="text" required>
+            <label>Password</label><input type="password" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
